@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension Font {
-    public static func systemSerif(size: CGFloat, weight: Font.Weight) -> Font {
+    public static func systemSerif(size: CGFloat, weight: Font.Weight = .regular) -> Font {
         Font.system(size: size, weight: weight, design: .serif).monospacedDigit()
     }
 }
